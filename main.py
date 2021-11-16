@@ -19,7 +19,7 @@ modelisx= Transportlidzeklis('Volkswagen',100, 5000)
 print(modelisx.max_atrums, modelisx.nobraukums, modelisx.nosaukums)
 
 class bus(Transportlidzeklis):
-  def sedvietu_skaits(self, skaits = 2)
+  def sedvietu_skaits(self, skaits=50)
     return super().sedvietu_skaits(skaits)
 
   def biletes(self):
